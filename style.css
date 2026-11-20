@@ -237,3 +237,13 @@ input[type=text],input[type=email]{font:inherit;color:inherit;padding:10px;width
 .compare-scroll{max-width:100%;overflow-x:auto;border-radius:12px;border:1px solid #c6cdc2;background:white}
 .matrix{border-collapse:collapse;width:100%;min-width:600px;text-align:left}.matrix caption{text-align:left;padding:12px 16px;font-size:14px}.matrix th,.matrix td{padding:11px 12px;vertical-align:top;border-top:1px solid #d8dfd4}.matrix thead{background:#174e40;color:white}.matrix tbody th{font-size:14px;background:#ecf0e6}.matrix .amount{font-size:24px;white-space:nowrap}
 .context{font-size:15px;color:#38654b;margin:0 0 15px}.lead{font-size:21px;max-width:62ch}.layout aside a{display:inline-block;margin:8px 0 15px}
+input[type="number"]{font:inherit;color:inherit;width:100%;padding:10px;background:white;border:1px solid #a7b5ac;border-radius:6px}
+.stay-dates{display:flex;justify-content:space-between;position:relative;gap:16px;padding-bottom:12px;border-bottom:4px solid #86a97e;margin-bottom:12px}.stay-dates strong,.stay-dates small,.assistants li span{display:block}.stay-dates div:last-child{text-align:right}
+.assistants{background:#eef3eb}.assistants ol{list-style:none;border-left:2px solid #93ae8b;padding-left:16px}.assistants li{margin:12px 0;padding-bottom:8px;border-bottom:1px solid #c5d3c1}.assistants li p{margin:4px 0}
+.evidence{margin:16px 0;padding:16px;background:#edf3e7;border-left:3px solid #66865c}
+
+#trip-finding { background:#e6efe1; padding:12px 16px; margin:16px 0; border-left:4px solid #548455; }
+fieldset legend { font-weight:700; padding:0 6px; }
+.card dt { margin-top:12px; }
+.layout { padding-top:clamp(20px,4vw,52px); }
+@media(min-width:721px){.layout aside{position:sticky;top:20px;align-self:start}}
